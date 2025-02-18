@@ -1,0 +1,1 @@
+This code uses a non-standard way of checking for empty arrays in PHP.  It relies on the fact that an empty array evaluates to false in a boolean context, but this is not explicitly documented and could change in future versions of PHP.  A more robust and readable solution uses `empty()`.  Additionally, the nested `if` statement could be simplified.
