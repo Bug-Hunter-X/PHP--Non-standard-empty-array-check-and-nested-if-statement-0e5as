@@ -1,0 +1,3 @@
+# PHP: Non-standard empty array check and nested if statement
+
+This repository demonstrates a common but non-standard way of checking for empty arrays in PHP and presents a more robust alternative.  The original code uses a boolean evaluation of an empty array, which works in current PHP versions, but is not guaranteed in future versions.  The improved code uses the `empty()` function, which explicitly checks for emptiness, improving readability and maintainability.
